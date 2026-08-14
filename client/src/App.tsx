@@ -11,9 +11,9 @@ function Router() {
   return (
     <Switch>
       <Route path={"/"} component={Home} />
+      {/* GitHub Pages serves this game from /escape-the-rooms/; render the game for that subpath too. */}
       <Route path={"/404"} component={NotFound} />
-      {/* Final fallback route */}
-      <Route component={NotFound} />
+      <Route component={Home} />
     </Switch>
   );
 }
