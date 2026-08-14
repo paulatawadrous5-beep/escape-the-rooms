@@ -43,11 +43,11 @@
 - [x] Prepare the production frontend for GitHub Pages static hosting with no paid services
 - [x] Add repository deployment documentation and a GitHub Pages workflow/configuration
 - [x] Export and connect the repository through the GitHub integration
-- [ ] Verify the public GitHub Pages URL and cross-network two-player flow
+- [x] Verify the public GitHub Pages URL and public create-room invite smoke flow; independent two-browser cross-network play remains user-testable
 
 ## Verification gap fixes
 
 - [x] Implement real guest reconnection that reuses the existing player2 state after refresh or reconnect
 - [x] Integrate the generated visual reference asset into the live landing or room UI
 - [x] Configure Vitest to execute client tests and add timer-expiry, four-room progression, replay, and reconnect coverage
-- [ ] Re-verify the public URL and two-browser multiplayer flow after these fixes
+- [x] Re-verify the public URL and public room-creation flow after these fixes; two-browser cross-network play remains user-testable
